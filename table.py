@@ -20,11 +20,4 @@ def make_cube(length, width, height, placement):
 	cube_leg.Height = height
 	cube_leg.Placement = placement
 	App.ActiveDocument.recompute()
-	#App.ActiveDocument.addObject("Part::Box","Box")
-	#App.ActiveDocument.recompute()
-	#col=[(0.65,0.32,0.00),(0.65,0.32,0.00),(0.65,0.32,0.00),(0.65,0.32,0.00)]
-	#App.ActiveDocument.Box.ViewObject.DiffuseColor=col
-
 	
-
-
