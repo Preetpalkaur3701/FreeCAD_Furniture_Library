@@ -1,27 +1,34 @@
-# FreeCAD_Furniture_Library
-## Requirement
-- FreeCAD: https://github.com/FreeCAD/FreeCAD
+# FreeCAD Furniture Library
+Add a description here.
+
+## Requirements
+- [FreeCAD](https://github.com/FreeCAD/FreeCAD) the FOSS 3D CAD/CAM Modeler >= `v0.17`
 
 ## Installation
-1. `$ cd ~/.FreeCAD/Mod`
-1. `$ git clone https://github.com/Preetpalkaur3701/FreeCAD_Furniture_Library.git`
+Clone this git repository in to your `FreeCAD/Mod` directory
+```
+  cd ~/.FreeCAD/Mod`
+  git clone https://github.com/Preetpalkaur3701/FreeCAD_Furniture_Library.git`
+```
 
 ## Usage 
 Open FreeCAD and its Python console.
 
-- Create drum.
+### Create drum
+Paste the following code in to the FC python console
 ```
-from FreeCAD_Furniture_Librarey import drum1
+from FreeCAD_Furniture_Library import drum1
 drum1.drum(4, 8, 3, 5, 2)
 ```
-- Create table:
+
+### Create table
+Paste the following code in to the FC python console
 ```
-from FreeCAD_Furniture_Librarey import table_1
+from FreeCAD_Furniture_Library import table_1
 table_1.table(6, 6, 2, 2, 8)
 ```
 
-
-#### View od Table and Concrete mixer drum
+# Screenshots
 
 ![drum_2](https://user-images.githubusercontent.com/31319212/54432789-3134a400-4750-11e9-9d37-bcdeec1a55bc.png)
 ![drum_1](https://user-images.githubusercontent.com/31319212/54432888-7527a900-4750-11e9-8a18-c15bc7cc80f3.png)
